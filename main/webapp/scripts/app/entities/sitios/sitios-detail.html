@@ -1,0 +1,118 @@
+
+<div>
+    <h2><span translate="appturApp.sitios.detail.title">Sitios</span> {{sitios.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="appturApp.sitios.nombre">Nombre</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{sitios.nombre}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.sitios.descripcion">Descripcion</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{sitios.descripcion}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.sitios.paginaweb">Paginaweb</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{sitios.paginaweb}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.sitios.mail">Mail</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{sitios.mail}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.sitios.facebook">Facebook</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{sitios.facebook}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.sitios.twitter">Twitter</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{sitios.twitter}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.sitios.direccion">Direccion</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{sitios.direccion}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.sitios.telefono">Telefono</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{sitios.telefono}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.sitios.latitud">Latitud</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{sitios.latitud}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.sitios.longitud">Longitud</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{sitios.longitud}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.sitios.cantons">cantons</span>
+                </td>
+                <td>
+                    <a class="form-control-static" ui-sref="canton.detail({id:sitios.cantons.id})">{{sitios.cantons.nombre}}</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.sitios.categories">categories</span>
+                </td>
+                <td>
+                    <a class="form-control-static" ui-sref="category.detail({id:sitios.categories.id})">{{sitios.categories.nombre}}</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

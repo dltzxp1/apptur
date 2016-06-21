@@ -1,0 +1,12 @@
+﻿id;nombre;descripcion;paginaweb;mail;facebook;twitter;direccion;telefono;latitud;longitud;cantons_id;categories_id
+1;IMBAVIAJES;Una de las técnicas más empleadas por los departamentos de comunicación organizacional y de;www.imbaviajes.com;mail;/patricia_imbaviajes;@patricia_imbaviajes;OVIEDO 8-36 Y OLMEDO;2955620;111;111;1;1
+2;POLIMUNDO;Una de las técnicas más empleadas por los departamentos de comunicación organizacional y de;www.poli.com;mail;/polimund;@patricia_imbaviajes;JACINTO PANKERY 4-27 Y AV. MARIANO ACOSTA;2632493;1111;1111;1;1
+3;DEL RÍO;Una de las técnicas más empleadas por los departamentos de comunicación organizacional y de;www.delrio.com;mail;/delrio;@patricia_imbaviajes;JUAN MONTALVO 4-55 Y FLORES;2611885;1111;1111;1;2
+4;IMPERIO DEL SOL;Una de las técnicas más empleadas por los departamentos de comunicación organizacional y de;www.imperio.com;mail;/imperio ;@patricia_imbaviajes;SIMÓN BOLÍVAR 12-101 Y OBISPO MOSQUERA;2580794;1111;1111;1;2
+5;PLAZA VICTORIA;Una de las técnicas más empleadas por los departamentos de comunicación organizacional y de;www.plazacom;mail;/plazacom;@patricia_imbaviajes;PEDRO MONCAYO 7-38 Y SÁNCHEZ Y CIFUENTE;2600887;1111;1111;1;3
+6;CALLEJÓN EL;Una de las técnicas más empleadas por los departamentos de comunicación organizacional y de;www.callejoncom;mail;/callejoncom;@patricia_imbaviajes;HECTOR CANANVALLE A 500 MTS. PENSIONADO ATAHUALPA;2611577;1111;1111;1;3
+7;CANANVALLE;Una de las técnicas más empleadas por los departamentos de comunicación organizacional y de;www.canamballe.com;mail;/cananval;@patricia_imbaviajes;PANAMERICANA SUR KM. 4;2932222;1111;1111;1;4
+8;CHORLAVÍ;Una de las técnicas más empleadas por los departamentos de comunicación organizacional y de;www.chorlavi.com;mail;/chorlaví;@patricia_imbaviajes;AV. MARIANO ACOSTA 16-38;2932222;1111;1111;1;4
+9;AJAVÍ;Una de las técnicas más empleadas por los departamentos de comunicación organizacional y de;www.ajavi.com;mail;/ajavi;@patricia_imbaviajes;AV. ATAHUALPA 15-142  Y   BONILLA;2932222;1111;1111;1;5
+10;LA GIRALDA;Una de las técnicas más empleadas por los departamentos de comunicación organizacional y de;www.lagiralda.com;mail;/lagiralda;@patricia_imbaviajes;OLMEDO 9-40 Y PEDRO MONCAYO;2956002;1111;1111;1;5
+11;ROYAL RUÍZ;Una de las técnicas más empleadas por los departamentos de comunicación organizacional y de;www.royalruiz.com;mail;/royalruiz;@patricia_imbaviajes;OLMEDO 8-69 Y PEDRO MONCAYO;2644918;1111;1111;1;6

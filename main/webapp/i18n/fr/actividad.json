@@ -1,0 +1,29 @@
+{
+    "appturApp": {
+        "actividad" : {
+            "home": {
+                "title": "Actividads",
+                "createLabel": "Créer un nouveau Actividad",
+                "createOrEditLabel": "Créer ou éditer un Actividad",
+                "search": "Search for Actividad"
+            },
+            "created": "Un nouveau Actividad a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Actividad avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Actividad avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Actividad {{ id }} ?"
+            },
+            "detail": {
+                "title": "Actividad"
+            },
+            "nombre": "Nombre",
+            "descripcion": "Descripcion",
+            "direccion": "Direccion",
+            "fecha": "Fecha",
+            "foto": "Foto",
+            "sitioss": "Sitioss",
+            "responsables": "Responsables"
+        }
+    }
+}
+

@@ -1,0 +1,19 @@
+{
+    "main": {
+        "title": "Gestión de sitios turisticos",
+        "subtitle": "DEV: jm",
+        "logged": {
+            "message": "Usted esta autentificado como \"{{username}}\"."
+        },
+        "question": "Si tiene alguna pregunta sobre jhipster:",
+        "link": {
+            "homepage": "JHipster homepage",
+            "stackoverflow": "JHipster on Stack Overflow",
+            "bugtracker": "JHipster bug tracker",
+            "chat": "JHipster public chat room",
+            "contact": "contact @java_hipster on Twitter"
+        },
+        "like": "Para generar más proyectos ingrese a :",
+        "github": "Github"
+    }
+}

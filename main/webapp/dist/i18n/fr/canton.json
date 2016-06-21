@@ -1,0 +1,26 @@
+{
+    "appturApp": {
+        "canton" : {
+            "home": {
+                "title": "Cantons",
+                "createLabel": "Créer un nouveau Canton",
+                "createOrEditLabel": "Créer ou éditer un Canton",
+                "search": "Search for Canton"
+            },
+            "created": "Un nouveau Canton a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Canton avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Canton avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Canton {{ id }} ?"
+            },
+            "detail": {
+                "title": "Canton"
+            },
+            "nombre": "Nombre",
+            "descripcion": "Descripcion",
+            "poblacion": "Poblacion",
+            "provinces": "Provinces"
+        }
+    }
+}
+

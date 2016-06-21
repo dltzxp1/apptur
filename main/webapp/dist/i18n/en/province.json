@@ -1,0 +1,26 @@
+{
+    "appturApp": {
+        "province" : {
+            "home": {
+                "title": "Provincias",
+                "createLabel": "Crear una provincia",
+                "createOrEditLabel": "Gestión de provincias",
+                "search": "Search for Province"
+            },
+            "created": "La provincia {{ param }} fue creda",
+            "updated": "La provincia {{ param }} fue actualizada",
+            "deleted": "La provincia {{ param }} fue eliminada",
+            "delete": {
+                "question": "Esta seguro de eliminar la provincia {{ id }}?"
+            },
+            "detail": {
+                "title": "Province"
+            },
+            "nombre": "Nombre",
+            "descripcion": "Descripción",
+            "capital": "Capital",
+            "poblacion": "Población",
+            "region": "Región"
+        }
+    }
+}

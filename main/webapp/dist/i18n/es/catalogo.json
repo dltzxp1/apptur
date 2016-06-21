@@ -1,0 +1,24 @@
+{
+    "appturApp": {
+        "catalogo" : {
+            "home": {
+                "title": "Catalogos",
+                "createLabel": "Crear nuevo Catalogo",
+                "createOrEditLabel": "Crear o editar Catalogo",
+                "search": "Search for Catalogo"
+            },
+            "created": "Un nuevo Catalogo ha sido creado con el identificador {{ param }}",
+            "updated": "Un Catalogo ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Catalogo ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Catalogo {{ id }}?"
+            },
+            "detail": {
+                "title": "Catalogo"
+            },
+            "nombre": "Nombre",
+            "descripcion": "Descripcion",
+            "tipo": "Tipo"
+        }
+    }
+}

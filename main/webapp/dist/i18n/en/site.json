@@ -1,0 +1,33 @@
+{
+    "appturApp": {
+        "site" : {
+            "home": {
+                "title": "Sites",
+                "createLabel": "Create a new Site",
+                "createOrEditLabel": "Create or edit a Site",
+                "search": "Search for Site"
+            },
+            "created": "A new Site is created with identifier {{ param }}",
+            "updated": "A Site is updated with identifier {{ param }}",
+            "deleted": "A Site is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Site {{ id }}?"
+            },
+            "detail": {
+                "title": "Site"
+            },
+            "nombre": "Nombre",
+            "descripcion": "Descripcion",
+            "paginaweb": "Paginaweb",
+            "mail": "Mail",
+            "facebook": "Facebook",
+            "twitter": "Twitter",
+            "direccion": "Direccion",
+            "telefono": "Telefono",
+            "latitud": "Latitud",
+            "longitud": "Longitud",
+            "cantons": "Cantons",
+            "categories": "Categories"
+        }
+    }
+}

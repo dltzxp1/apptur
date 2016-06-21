@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <include file="classpath:config/liquibase/changelog/1000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/1001_added_entity_Province.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/1002_added_data_Provincia.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/1003_added_entity_Canton.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/1004_added_data_Canton.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/1005_added_entity_Category.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/1006_added_data_Categorias.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/1007_added_entity_Sitios.xml" relativeToChangelogFile="false"/> 
+    <include file="classpath:config/liquibase/changelog/1008_added_data_Sitios.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/1009_added_entity_Actividad.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/1010_added_entity_Responsable.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/1011_added_entity_Catalogo.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/1012_added_entity_Servicios.xml" relativeToChangelogFile="false"/>
+</databaseChangeLog>

@@ -1,0 +1,27 @@
+{
+    "appturApp": {
+        "responsable" : {
+            "home": {
+                "title": "Responsables",
+                "createLabel": "Créer un nouveau Responsable",
+                "createOrEditLabel": "Créer ou éditer un Responsable",
+                "search": "Search for Responsable"
+            },
+            "created": "Un nouveau Responsable a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Responsable avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Responsable avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Responsable {{ id }} ?"
+            },
+            "detail": {
+                "title": "Responsable"
+            },
+            "nombre": "Nombre",
+            "correo": "Correo",
+            "telefono": "Telefono",
+            "celular": "Celular",
+            "activi": "Activi"
+        }
+    }
+}
+

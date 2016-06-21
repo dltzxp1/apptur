@@ -1,0 +1,62 @@
+
+<div>
+    <h2><span translate="appturApp.responsable.detail.title">Responsable</span> {{responsable.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="appturApp.responsable.nombre">Nombre</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{responsable.nombre}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.responsable.correo">Correo</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{responsable.correo}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.responsable.telefono">Telefono</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{responsable.telefono}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.responsable.celular">Celular</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{responsable.celular}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.responsable.activi">activi</span>
+                </td>
+                <td>
+                    <a class="form-control-static" ui-sref="actividad.detail({id:responsable.activi.id})">{{responsable.activi.nombre}}</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

@@ -1,0 +1,77 @@
+<div>
+    <h2 translate="appturApp.sitios.home.title">Sitioss</h2>
+    <jh-alert></jh-alert>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 no-padding-left">
+                <button class="btn btn-primary" ui-sref="sitios.new" >
+                    <span class="glyphicon glyphicon-plus"></span>
+                    <span 
+                        translate="appturApp.sitios.home.createLabel">Create new Sitios
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="table-responsive">
+        <table class="jh-table table table-striped">
+            <thead>
+                <tr jh-sort="predicate" ascending="reverse" callback="loadAll()">
+                    <th jh-sort-by="id"><span translate="global.field.id">ID</span> <span class="glyphicon glyphicon-sort"></span></th>
+                    <th jh-sort-by="nombre"><span translate="appturApp.sitios.nombre">Nombre</span> <span class="glyphicon glyphicon-sort"></span></th>
+                    <th jh-sort-by="paginaweb"><span translate="appturApp.sitios.paginaweb">Paginaweb</span> <span class="glyphicon glyphicon-sort"></span></th>
+                    <th jh-sort-by="mail"><span translate="appturApp.sitios.mail">Mail</span> <span class="glyphicon glyphicon-sort"></span></th>
+                    <th jh-sort-by="facebook"><span translate="appturApp.sitios.facebook">Facebook</span> <span class="glyphicon glyphicon-sort"></span></th>
+                    <th jh-sort-by="twitter"><span translate="appturApp.sitios.twitter">Twitter</span> <span class="glyphicon glyphicon-sort"></span></th>
+                    
+                    <th jh-sort-by="cantons.nombre"><span translate="appturApp.sitios.cantons">cantons</span> <span class="glyphicon glyphicon-sort"></span></th>
+                    <th jh-sort-by="categories.nombre"><span translate="appturApp.sitios.categories">categories</span> <span class="glyphicon glyphicon-sort"></span></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="sitios in sitioss track by sitios.id">
+                    <td><a ui-sref="sitios.detail({id:sitios.id})">{{sitios.id}}</a></td>
+                    <td>{{sitios.nombre}}</td>
+                    <td>{{sitios.paginaweb}}</td>
+                    <td>{{sitios.mail}}</td>
+                    <td>{{sitios.facebook}}</td>
+                    <td>{{sitios.twitter}}</td>
+                    
+                    <td>
+                        <a ui-sref="canton.detail({id:sitios.cantons.id})">{{sitios.cantons.nombre}}</a>
+                    </td>
+                    <td>
+                        <a ui-sref="category.detail({id:sitios.categories.id})">{{sitios.categories.nombre}}</a>
+                    </td>
+                    <td class="text-right">
+                        <div class="btn-group flex-btn-group-container">
+                            <button type="submit"
+                                    ui-sref="sitios.detail({id:sitios.id})"
+                                    class="btn btn-info btn-sm"> 
+                                <span class="glyphicon glyphicon-eye-open"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.view"></span>
+                            </button>
+                            <button type="submit"
+                                    ui-sref="sitios.edit({id:sitios.id})"
+                                    class="btn btn-primary btn-sm">
+                                <span class="glyphicon glyphicon-pencil"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.edit"></span>
+                            </button>
+                            <button type="submit"
+                                    ui-sref="sitios.delete({id:sitios.id})"
+                                    class="btn btn-danger btn-sm">                                    
+                                <span class="glyphicon glyphicon-remove-circle"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.delete"></span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="text-center">
+        <uib-pagination class="pagination-sm" total-items="totalItems" ng-model="page" ng-change="loadAll()"></uib-pagination>
+    </div>
+</div>

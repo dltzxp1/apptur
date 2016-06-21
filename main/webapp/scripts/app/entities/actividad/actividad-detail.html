@@ -1,0 +1,71 @@
+
+<div>
+    <h2><span translate="appturApp.actividad.detail.title">Actividad</span> {{actividad.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="appturApp.actividad.nombre">Nombre</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{actividad.nombre}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.actividad.descripcion">Descripcion</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{actividad.descripcion}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.actividad.direccion">Direccion</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{actividad.direccion}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.actividad.fecha">Fecha</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{actividad.fecha | date:'mediumDate'}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.actividad.foto">Foto</span>
+                </td>
+                <td>
+                    <img data-ng-src="{{'data:' + actividad.fotoContentType + ';base64,' + actividad.foto}}" style="max-width: 100%;" ng-if="actividad.foto"/>
+                    <div>{{actividad.fotoContentType}}  {{byteSize(actividad.foto)}}</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="appturApp.actividad.sitioss">sitioss</span>
+                </td>
+                <td>
+                    <a class="form-control-static" ui-sref="sitios.detail({id:actividad.sitioss.id})">{{actividad.sitioss.nombre}}</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

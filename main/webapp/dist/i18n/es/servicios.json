@@ -1,0 +1,24 @@
+{
+    "appturApp": {
+        "servicios" : {
+            "home": {
+                "title": "Servicioss",
+                "createLabel": "Crear nuevo Servicios",
+                "createOrEditLabel": "Crear o editar Servicios",
+                "search": "Search for Servicios"
+            },
+            "created": "Un nuevo Servicios ha sido creado con el identificador {{ param }}",
+            "updated": "Un Servicios ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Servicios ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Servicios {{ id }}?"
+            },
+            "detail": {
+                "title": "Servicios"
+            },
+            "codigo": "Codigo",
+            "siti": "Siti",
+            "catalogos": "Catalogos"
+        }
+    }
+}

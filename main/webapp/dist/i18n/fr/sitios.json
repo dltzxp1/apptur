@@ -1,0 +1,34 @@
+{
+    "appturApp": {
+        "sitios" : {
+            "home": {
+                "title": "Sitioss",
+                "createLabel": "Créer un nouveau Sitios",
+                "createOrEditLabel": "Créer ou éditer un Sitios",
+                "search": "Search for Sitios"
+            },
+            "created": "Un nouveau Sitios a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Sitios avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Sitios avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Sitios {{ id }} ?"
+            },
+            "detail": {
+                "title": "Sitios"
+            },
+            "nombre": "Nombre",
+            "descripcion": "Descripcion",
+            "paginaweb": "Paginaweb",
+            "mail": "Mail",
+            "facebook": "Facebook",
+            "twitter": "Twitter",
+            "direccion": "Direccion",
+            "telefono": "Telefono",
+            "latitud": "Latitud",
+            "longitud": "Longitud",
+            "cantons": "Cantons",
+            "categories": "Categories"
+        }
+    }
+}
+
